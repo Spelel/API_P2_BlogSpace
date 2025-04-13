@@ -11,9 +11,13 @@ h1 {
 }
 
 nav {
+    background-color: beige;
+    padding: 5px;
+    height: 30px;
+    display: flex;
+    align-items: center;
     position: fixed;
     width: 100%;
-    background-color: rgb(126, 180, 162);
 }
 
 #postHandler {
@@ -26,4 +30,28 @@ nav {
 
 .postBody {
     max-width: 65%;
+}
+
+
+form {
+    padding: 60px 10px 10px ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: antiquewhite;
+}
+
+
+#newPostTitle, #newPostBody {
+    width: 350px;
+}
+
+button {
+    height: 2rem;
+    width: 7rem;
+    background-color: azure;
+    border: none;
+    margin: 0.5rem;
+    cursor: pointer;
 }
